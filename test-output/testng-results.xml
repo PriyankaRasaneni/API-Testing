@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="ApiTestingSuite" duration-ms="1077" started-at="2018-03-15T09:41:57Z" finished-at="2018-03-15T09:41:58Z">
+  <suite name="Default suite" duration-ms="1383" started-at="2018-03-16T06:03:22Z" finished-at="2018-03-16T06:03:24Z">
     <groups>
       <group name="demo">
-        <method signature="Employee.validayeEployee()[pri:0, instance:com.api.test.Employee@29774679]" name="validayeEployee" class="com.api.test.Employee"/>
+        <method signature="Employee.ValidateEmployee()[pri:0, instance:com.api.test.Employee@675d3402]" name="ValidateEmployee" class="com.api.test.Employee"/>
       </group> <!-- demo -->
     </groups>
-    <test name="ApiTest" duration-ms="1077" started-at="2018-03-15T09:41:57Z" finished-at="2018-03-15T09:41:58Z">
-      <class name="com.Sisense.framework.RestAssuredConfiguration">
-        <test-method status="PASS" signature="configure()[pri:0, instance:com.Sisense.framework.RestAssuredConfiguration@28d25987]" name="configure" is-config="true" duration-ms="234" started-at="2018-03-15T09:41:57Z" finished-at="2018-03-15T09:41:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configure -->
-      </class> <!-- com.Sisense.framework.RestAssuredConfiguration -->
+    <test name="Default test" duration-ms="1383" started-at="2018-03-16T06:03:22Z" finished-at="2018-03-16T06:03:24Z">
       <class name="com.api.test.Employee">
-        <test-method status="PASS" signature="validayeEployee()[pri:0, instance:com.api.test.Employee@29774679]" name="validayeEployee" duration-ms="1058" started-at="2018-03-15T09:41:57Z" finished-at="2018-03-15T09:41:58Z">
+        <test-method status="PASS" signature="ValidateEmployee()[pri:0, instance:com.api.test.Employee@675d3402]" name="ValidateEmployee" duration-ms="1363" started-at="2018-03-16T06:03:22Z" finished-at="2018-03-16T06:03:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validayeEployee -->
+        </test-method> <!-- ValidateEmployee -->
       </class> <!-- com.api.test.Employee -->
-    </test> <!-- ApiTest -->
-  </suite> <!-- ApiTestingSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
